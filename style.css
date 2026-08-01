@@ -567,6 +567,35 @@ nav {
 /* ══════════════════════════════════════════
    FOOTER / CONTACT
    ══════════════════════════════════════════ */
+.footer-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:visited {
+  color: #ffffff;
+}
+
+.footer-link:hover {
+  color: #8b5cf6; /* or var(--purple-light) */
+}
+
+.footer-link svg {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor;
+}
 
 footer {
   border-top: 1px solid var(--purple);
